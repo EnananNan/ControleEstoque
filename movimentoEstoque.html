@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Movimentação de Estoque</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Movimentação de Estoque</h1>
+    <form>
+      <select required>
+        <option value="">Tipo de Movimentação</option>
+        <option>Entrada</option>
+        <option>Saída</option>
+      </select>
+      <select required>
+        <option value="">Produto</option>
+        <option>Produto A</option>
+        <option>Produto B</option>
+      </select>
+      <input type="number" placeholder="Quantidade" required />
+      <input type="date" required />
+      <textarea placeholder="Motivo"></textarea>
+      <button type="submit">Registrar Movimentação</button>
+      <a href="home.html"><button type="button">Voltar</button></a>
+    </form>
+  </div>
+</body>
+</html>

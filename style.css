@@ -1,0 +1,63 @@
+:root {
+    --rosa: #ffcce0;
+    --azul: #ccf2ff;
+    --lilas: #e6ccff;
+    --verde: #ccffe5;
+    --amarelo: #fff7cc;
+    --cinza: #f9f9f9;
+    --rosa-escuro: #ff99cc;
+  }
+   
+  body {
+    background-color: var(--cinza);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+   
+  .container {
+    background-color: var(--lilas);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+  }
+   
+  h1 {
+    color: var(--rosa-escuro);
+  }
+   
+  input, select, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 1em;
+  }
+   
+  button {
+    background-color: var(--rosa);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+   
+  button:hover {
+    background-color: var(--rosa-escuro);
+    color: white;
+  }
+   
+  a {
+    color: var(--azul);
+    text-decoration: none;
+  }
